@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Home() {
     const home={
-        backgroundColor: "#ffb",
+        backgroundColor: "yellow",
         height : "85vh",
         textAlign: "center",
         color: "orange",
