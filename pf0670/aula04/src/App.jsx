@@ -1,14 +1,11 @@
-import React from 'react'
-import Consumer from './components/consumer/Consumer'
-import Rodape from './components/rodape/Rodape'
+import React from 'react';
 
-export default function App() {
+import Home from './components/Home'
+import Produtos from './components/Produtos';
+import Servicos from './components/servicos';
 
-    return (
-        <>
-            <h1>Exemplos de UseEffects</h1>
-            <Consumer />
-
-        </>
+export default ()=> {
+    return(
+        
     )
 }
