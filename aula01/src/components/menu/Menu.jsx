@@ -10,10 +10,16 @@ export default function Menu() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/produtos">Produtos</Link>
+            <Link to="/moda-feminina">ModaFeminina</Link>
           </li>
           <li>
-            <Link to="/servicos">Serviços</Link>
+            <Link to="/moda-masculina">ModaMasculina</Link>
+          </li>
+          <li>
+            <Link to="/moda-infantil">ModaInfantil</Link>
+          </li>
+          <li>
+            <Link to="/sobre">Sobre</Link>
           </li>
         </ul>
       </nav>
