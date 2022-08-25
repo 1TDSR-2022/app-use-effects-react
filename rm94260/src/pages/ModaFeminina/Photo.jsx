@@ -5,6 +5,7 @@ const Photo = ({ photo }) => {
     <figure>
       <div className="container-img">
         <img src={ photo.image } alt={ photo.name } />
+        <span className="plus">{ photo.description }</span>
       </div>
 
       <div className="info">
