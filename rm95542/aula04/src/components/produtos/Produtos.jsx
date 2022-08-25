@@ -6,12 +6,13 @@ export default function Produtos() {
         backgroundColor: '#bff',
         height: '85vh',
         textAlign: 'center',
-        color: 'orange'
+        color: '#7cc'
     }
+
   return (
     <div style={produto}>
         <h1>Página de Produtos</h1>
-        <p>Exemplo da página dos produtos de compra.</p>
+        <p>Exemplo da página dos produtos de compra</p>
     </div>
   )
 }

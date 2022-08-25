@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div style={Home}>
         <h1>Página principal</h1>
-        <p>Exemplo da página principal do projeto.</p>
+        <p>Exemplo da página principal do projeto</p>
     </div>
   )
 }
