@@ -7,8 +7,10 @@ export default function Menu(){
         <nav>
             <ul>
                 <li><Link to={'/'}>Home</Link></li>
-                <li><Link to={'/produtos'}>Produtos</Link></li>
-                <li><Link to={'/servicos'}>Serviços</Link></li>
+                <li><Link to={'/modaFem'}>Moda Feminina</Link></li>
+                <li><Link to={'/modaMasc'}>Moda Masculina</Link></li>
+                <li><Link to={'/modaInf'}>Moda Infantil</Link></li>
+                <li><Link to={'/sobre'}>Sobre</Link></li>
             </ul>
         </nav>
     )
