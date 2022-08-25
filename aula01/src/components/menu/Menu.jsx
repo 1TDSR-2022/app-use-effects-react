@@ -10,13 +10,13 @@ export default function Menu() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/moda-feminina">ModaFeminina</Link>
+            <Link to="/moda-feminina">Moda Feminina</Link>
           </li>
           <li>
-            <Link to="/moda-masculina">ModaMasculina</Link>
+            <Link to="/moda-masculina">Moda Masculina</Link>
           </li>
           <li>
-            <Link to="/moda-infantil">ModaInfantil</Link>
+            <Link to="/moda-infantil">Moda Infantil</Link>
           </li>
           <li>
             <Link to="/sobre">Sobre</Link>

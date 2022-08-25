@@ -2,10 +2,11 @@ import React from "react";
 
 export default function Home() {
   const sobre = {
-    backgroundColor: "#ffb",
+    backgroundColor: "#bbf ",
     height: "85vh",
     textAlign: "center",
-    color: "orange",
+    color: "grey",
+    padding: "6vh",
   };
   return (
     <div style={sobre}>
