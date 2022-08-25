@@ -1,12 +1,22 @@
 import React from 'react'
-import Consumer from './components/consumer/Consumer'
+import {Routes, Route} from 'react-router-dom'
+
+import Home from './components/Home/Home'
+import Menu from './components/Menu/Menu'
+import Produto from './components/Produto/Produto'
+import Servicos from './components/Servicos/Servicos'
+
 
 export default function App() {
 
     return (
         <>
-            <h1>Exemplos de UseEffects</h1>
-            <Consumer/>
+            <Menu/>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/produto" element={<Produto/>}/>
+                <Route path="/servicos" element={<Servicos/>}/>
+            </Routes>
         </>
     )
 }
