@@ -1,13 +1,20 @@
-import React from "react"
-import Consumer from "./components/consumer/Consumer"
-import Cabecalho from "./components/cabecalho/Cabecalho"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
-export default function app(){
+import Home from "./components/home/Home"
+import Produtos from "./components/produtos/Produtos"
+import Servicos from "./components/servicos/Servicos"
+import Menu from "./components/menu/Menu"
+
+
+export default function App(){
     return(
-        <>
-            <Cabecalho/>
-            <h1>Exemplos de UseEffects</h1>
-            <Consumer/>
-        </>
+        <BrowserRouter>
+            <Menu/>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/produtos" element={<Produtos/>}/>
+                <Route path="/servicos" element={<Servicos/>}/>
+            </Routes>
+        </BrowserRouter>
     )
 }
