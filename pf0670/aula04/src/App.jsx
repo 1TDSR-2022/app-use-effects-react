@@ -1,14 +1,22 @@
 import React from 'react'
-import Consumer from './components/consumer/Consumer'
-import Rodape from './components/rodape/Rodape'
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import Home from './components/home/Home'
+import Menu from './components/menu/Menu'
+import Produtos from './components/produtos/Produtos'
+import Servicos from './components/servicos/Servicos'
 
 export default function App() {
 
     return (
-        <>
-            <h1>Exemplos de UseEffects</h1>
-            <Consumer />
+      <>
+      
+            <Menu/>
+            <Routes>
+                <Route path="/" element={<Home/>} />
+                <Route path="/produtos" element={<Produtos/>} />
+                <Route path="/servicos" element={<Servicos/>} />
+            </Routes>
+            </>
 
-        </>
     )
 }
