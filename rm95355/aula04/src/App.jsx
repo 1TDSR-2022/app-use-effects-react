@@ -3,8 +3,11 @@ import {Routes, Route} from 'react-router-dom'
 
 import Home from './components/Home/Home'
 import Menu from './components/Menu/Menu'
-import Produto from './components/Produto/Produto'
-import Servicos from './components/Servicos/Servicos'
+import ModaFeminina from './components/ModaFeminina/ModaFeminina'
+import ModaInfantil from './components/ModaInfantil/ModaInfantil'
+import ModaMasculina from './components/ModaMasculina/ModaMasculina'
+import Rodape from './components/Rodape/Rodape'
+import Sobre from './components/Sobre/Sobre'
 
 
 export default function App() {
@@ -14,9 +17,12 @@ export default function App() {
             <Menu/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/produto" element={<Produto/>}/>
-                <Route path="/servicos" element={<Servicos/>}/>
+                <Route path="/ModaFeminina" element={<ModaFeminina/>}/>
+                <Route path="/ModaInfantil" element={<ModaInfantil/>}/>
+                <Route path="/ModaMasculina" element={<ModaMasculina/>}/>
             </Routes>
+            <Sobre/>
+            <Rodape/>
         </>
     )
 }
