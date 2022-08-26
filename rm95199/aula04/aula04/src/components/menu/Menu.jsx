@@ -10,7 +10,7 @@ export default function Menu() {
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/produtos'>Produtos</Link></li>  
                 <li><Link to='/servico'>Serviços</Link></li>
-            </ul>
+            </ul> 
             </nav>
         </header>
     )
