@@ -34,10 +34,13 @@ export default function ModaMasculina (){
             <ul style={liCss}>
                 <li><img src={Imagem1} alt="foto de moda masculina" style={ImgCss}/></li>
                 <p style={pCss}>Camisa lisa preta </p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$99,90</p>
                 <li><img src={Imagem2} alt="foto de moda masculina" style={ImgCss}/></li>
                 <p style={pCss}>Coleção StreetWear Azul bebê</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$120,00</p>
                 <li><img src={Imagem3} alt="foto de moda masculina" style={ImgCss}/></li>
                 <p style={pCss}>Coleção Running Amarela</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$99,90</p>
             </ul>
             
         </div>

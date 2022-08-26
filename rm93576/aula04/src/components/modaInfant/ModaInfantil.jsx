@@ -34,10 +34,13 @@ export default function ModaFeminina (){
             <ul style={liCss}>
                 <li><img src={Imagem1} alt="foto de moda infantil" style={ImgCss}/></li>
                 <p style={pCss}>Coleção Back to Past</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$80,00</p>
                 <li><img src={Imagem2} alt="foto de moda infantil" style={ImgCss}/></li>
                 <p style={pCss}>Coleção A Moda Antiga</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}> A partir de R$65,00</p>
                 <li><img src={Imagem3} alt="foto de moda infantil" style={ImgCss}/></li>
                 <p style={pCss}>Coleção Pijama Mares e Rios</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}> A partir de R$120,00</p>
             </ul>
             
         </div>

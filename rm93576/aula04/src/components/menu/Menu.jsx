@@ -21,6 +21,7 @@ export default function Menu() {
                 <li><Link to="/modaMasculina" style={{textDecoration: 'none', color: '#000', fontSize: '1.5em'}}>Moda Masculina</Link></li>
                 <li><Link to="/modaFeminina" style={{textDecoration: 'none', color: '#000', fontSize: '1.5em'}} >Moda Feminina</Link></li>
                 <li><Link to="/modaInfantil" style={{textDecoration: 'none', color: '#000', fontSize: '1.5em'}} >Moda Infantil</Link></li>
+                <li><Link to="/sobre" style={{textDecoration: 'none', color: '#000', fontSize: '1.5em'}} >Sobre</Link></li>
             </ul>
         </nav>    
     </header>

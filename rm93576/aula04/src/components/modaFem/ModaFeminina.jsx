@@ -34,10 +34,13 @@ export default function ModaFeminina (){
             <ul style={liCss}>
                 <li><img src={Imagem1} alt="foto de moda feminina" style={ImgCss}/></li>
                 <p style={pCss}>Coleção Photograph </p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$60,00 </p>
                 <li><img src={Imagem2} alt="foto de moda feminina" style={ImgCss}/></li>
                 <p style={pCss}>Coleção StreetWear feminina</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$90,00 </p>
                 <li><img src={Imagem3} alt="foto de moda feminina" style={ImgCss}/></li>
                 <p style={pCss}>Coleção Running Preta</p>
+                <p style={{fontSize: '2em', textDecoration: 'underline'}}>A partir de R$130,00 </p>
             </ul>
             
         </div>
