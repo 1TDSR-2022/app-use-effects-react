@@ -18,6 +18,7 @@ export default function Home() {
           <img src={modaMasc} alt="modelo" width='20%'/>
           <img src={modaInf} alt="modelo mirin" width='20%'/>
         </div>
+        <br />
     </div>
   )
 }

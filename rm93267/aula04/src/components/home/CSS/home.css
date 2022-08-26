@@ -8,6 +8,9 @@
     text-align: center;
 }
 
+p{
+    text-decoration: underline;
+}
 #modelos{
     text-align: center;
 }
@@ -16,5 +19,7 @@ img{
     border-radius: 10px;
     margin-right: 50px;
     margin-left: 50px;
-    margin-bottom: 17%;
+}
+ul{
+    
 }

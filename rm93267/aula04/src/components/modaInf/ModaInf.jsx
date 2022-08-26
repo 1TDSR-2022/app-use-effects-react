@@ -12,11 +12,18 @@ export default function ModaInf() {
         </div>
 
         <div id='modelos'>
-          <img src={a} alt="cropped casual" width='20%'/>
+          <img src={a} alt="ben10" width='20%'/>
+          <h3>Look herói</h3>
+          <p>R$50,00</p>
           <br />
-          <img src={b} alt="cropped inverno" width='20%'/>
+          <img src={b} alt="mutante rex" width='20%'/>
+          <h3>Look herói</h3>
+          <p>R$50,00</p>
           <br />
-          <img src={c} alt="cropped street" width='20%'/>
+          <img src={c} alt="max steel" width='20%'/>
+          <h3>Look herói</h3>
+          <p>R$50,00</p>
+          <br />
         </div>
     </div>
   )
