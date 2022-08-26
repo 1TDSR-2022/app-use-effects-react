@@ -8,7 +8,7 @@ import Imagem3 from '../../img/pexels-visión-de-enfoque-3341231.jpg'
 export default function ModaMasculina (){
     
     const bgCss={
-        backgroundColor: 'red'
+        backgroundColor: '#6495ED'
     }
 
     const ImgCss={

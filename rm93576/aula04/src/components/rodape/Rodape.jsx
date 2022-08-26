@@ -5,7 +5,7 @@ export default function rodape (){
     return (
         <div>
             <footer>
-                <p>Feito por Abner&copy; </p>
+                <p style={{textAlign: 'center'}}>Feito por Abner em 25/08/2022 &copy;</p>
             </footer>
         </div>
         

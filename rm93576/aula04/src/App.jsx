@@ -8,6 +8,7 @@ import Rodape from "./components/rodape/Rodape"
 import ModaMasculina from "./components/modaMasc/ModaMasculina"
 import ModaFeminina from "./components/modaFem/ModaFeminina"
 import ModaInfantil from "./components/modaInfant/ModaInfantil"
+import Sobre from "./components/sobre/Sobre"
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
                 <Route path="/ModaMasculina" element={<ModaMasculina/>}/> 
                 <Route path="/ModaFeminina" element={<ModaFeminina/>}/> 
                 <Route path="/ModaInfantil" element={<ModaInfantil/>}/> 
+                <Route path="/Sobre" element={<Sobre/>}/> 
             </Routes>
             <Rodape/>
     </>
