@@ -9,17 +9,8 @@ import Rodape from './components/rodape/Rodape'
 import Sobre from './components/sobre/Sobre'
 
 export default function App(){
-
-    const corpo ={
-        backgroundColor: '#FF7F50',
-        borderRadius: '10px',
-        padding: '10px'
-    }
-
-
     return(
         <BrowserRouter>
-        <div style={corpo}>
             <Menu/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
@@ -29,7 +20,6 @@ export default function App(){
                 <Route path="/sobre" element={<Sobre/>}/>
             </Routes>
             <Rodape/>
-        </div>
         </BrowserRouter>
     )
     
