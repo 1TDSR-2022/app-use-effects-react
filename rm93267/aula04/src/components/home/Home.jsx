@@ -2,7 +2,7 @@ import React from 'react'
 import modaInf from './img/modaInf.jpg'
 import modaMasc from './img/modaMasc.jpg'
 import modaFem from './img/modaFem.jpg'
-import './style.css'
+import './CSS/home.css'
 
 export default function Home() {
 
