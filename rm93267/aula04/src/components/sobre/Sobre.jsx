@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Sobre() {
   const corpo={
-    paddingLeft: '10px',
-    marginRight: '50%',
-    marginBottom: '12%'
-   
+    backgroundColor: 'white',
+    paddingTop: '2px',
+    paddingLeft: '20px',
+    paddingRight: '50%',
+    paddingBottom: '12%',
+    borderRadius: '5px'
   }
 
   return (

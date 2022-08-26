@@ -55,7 +55,7 @@ export default function Rodape() {
                         <h4 style={h4}>get help</h4>
                         <ul style={ul}>
                             <li>FAQ</li>
-                            <li>shipping</li>
+                            <li>shopping</li>
                             <li>returns</li>
                             <li>order status</li>
                             <li>payment options</li>

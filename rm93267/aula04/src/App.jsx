@@ -8,6 +8,7 @@ import ModaInf from './components/modaInf/ModaInf'
 import Rodape from './components/rodape/Rodape'
 import Sobre from './components/sobre/Sobre'
 
+
 export default function App(){
     return(
         <BrowserRouter>
