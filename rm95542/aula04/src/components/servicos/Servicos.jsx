@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 export default function Servicos() {
 
@@ -15,3 +15,4 @@ export default function Servicos() {
     </div>
   )
 }
+ */

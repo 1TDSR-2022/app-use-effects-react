@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Sobre.css"
 export default function Home() {
 
     const Sobre = {
@@ -10,9 +10,12 @@ export default function Home() {
     }
   return (
     <div style={Sobre}>
-        <h1>Sobre nós</h1>
+      <div className='sobrecss' >
+        <h1 className='sobre'>Sobre nós</h1>
         <p>Aluno: Guilherme de Jesus Ferreira</p>
         <p>RM: 95542</p>
+      </div>
     </div>
+   
   )
 }
