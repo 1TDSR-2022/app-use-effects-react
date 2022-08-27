@@ -2,10 +2,11 @@ import React from 'react'
 
 export default function Home() {
   const home={
-    backgroundColor: '#ffb',
-    height: '85vh',
+    backgroundColor: '#6333',
+    height: '100vh',
     textAlign: 'center',
-    color: 'orange'
+    color: 'black',
+    paddingTop: '30px'
   }
     return (
     <div style={home}>
