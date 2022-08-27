@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 export default function Produtos() {
 
@@ -15,4 +15,4 @@ export default function Produtos() {
         <p>Exemplo da página dos produtos de compra</p>
     </div>
   )
-}
+} */
