@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Home.css"
 export default function Home() {
 
     const Home = {
@@ -10,8 +10,10 @@ export default function Home() {
     }
   return (
     <div style={Home}>
+      <div className='inicial'>
         <h1>Página principal</h1>
         <p>Exemplo da página principal do projeto</p>
+      </div>
     </div>
   )
 }

@@ -17,7 +17,7 @@ export default function App() {
                 <Route path="/modaMasculina" element={<ModaMasculina/>} />
                 <Route path="/modaFeminina" element={<ModaFeminina/>} />
                 <Route path="/modaInfantil" element={<ModaInfantil/>} />
-                <Route path="/sobre" element={<Sobre/>} />
+                <Route path="/sobre" element={<Sobre/>}/>
             </Routes> 
         </>
     )
