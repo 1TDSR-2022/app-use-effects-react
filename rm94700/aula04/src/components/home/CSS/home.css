@@ -1,0 +1,22 @@
+#corpo{
+    background-color: #06fdfd;
+    border-radius: 10px;
+}
+
+#cabecalho{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-decoration: underline;
+}
+#modelos{
+    text-align: center;
+}
+img{
+    border: solid 4px white;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
