@@ -21,8 +21,8 @@ export default function Home(){
             <>
                 <div style={header}>
                 </div>
-                <div style={body}></div>
-                <div>
+            <div style={body}>
+            <div>
                     <img src={fem}/>
                     <h2>Moda Feminina</h2>
                 </div>
@@ -34,6 +34,7 @@ export default function Home(){
                     <img src={infa}/>
                     <h2>Moda Infantil</h2>
                 </div>
+            </div>
             </>
         )   
 }
