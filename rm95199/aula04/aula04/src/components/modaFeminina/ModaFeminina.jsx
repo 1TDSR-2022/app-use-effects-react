@@ -7,7 +7,7 @@ import Img3 from "../../img/mulher_macacao.webp"
 export default function ModaFeminina() {
 
     const backgroundStyle = {
-        backgroundColor: 'ffb6c1'
+        backgroundColor: '#ffb6c1'
     }
 
     const imgStyle = {

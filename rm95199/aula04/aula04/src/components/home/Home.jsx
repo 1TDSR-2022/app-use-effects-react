@@ -7,7 +7,7 @@ import ImgInfantil from "../../img/crianca_casaco.jpg"
 export default function Home() {
     
     const pageStyle = {
-        backgroundColor: 'eee8aa',
+        backgroundColor: '#eee8aa',
         height: '80vh',
         textAlign: 'center',
         color: 'fb9e86',

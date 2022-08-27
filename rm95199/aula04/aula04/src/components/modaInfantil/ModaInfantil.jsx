@@ -5,7 +5,7 @@ import Img3 from "../../img/crianca_trico.jpg"
 
 export default function ModaInfantil() {
     const backgroundStyle = {
-        backgroundColor: 'b0e0e6'
+        backgroundColor: '#b0e0e6'
     }
 
     const imgStyle = {

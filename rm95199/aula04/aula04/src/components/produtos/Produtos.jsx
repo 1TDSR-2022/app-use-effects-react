@@ -2,12 +2,12 @@ import React from "react"
 
 export default function Produtos() {
     
-    const produtos={
-        backgroundColor: "#ffb",
-        height : "85vh",
-        textAlign: "center",
-        color: "#7cc",
-    }
+    //const produtos={
+        //backgroundColor: "#ffb",
+        //height : "85vh",
+        //textAlign: "center",
+        //color: "#7cc",
+    //}
     return (
         <div>
         <h1>Página de Produtos</h1>

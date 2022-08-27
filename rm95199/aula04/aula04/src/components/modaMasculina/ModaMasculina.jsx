@@ -5,7 +5,7 @@ import Img3 from "../../img/homem_terno.webp"
 
 export default function ModaMasculina() {
     const backgroundStyle = {
-        backgroundColor: '8fbc8f'
+        backgroundColor: '#8fbc8f'
     }
 
     const imgStyle = {
