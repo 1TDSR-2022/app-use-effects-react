@@ -23,11 +23,12 @@ export default function Menu() {
   return (
     <header >
         <nav>
-        <ul style={menu}>
-            <li style={li}> <Link style={link} to="/">Home</Link> </li>
-            <li style={li}> <Link style={link} to="/modamasculina">Moda Masculina</Link> </li>
-            <li style={li}> <Link style={link} to="/modafeminina">Moda Feminina</Link> </li>
-            <li style={li}> <Link style={link} to="/infantil">Moda Infatil</Link> </li>
+          <ul style={menu}>
+              <li style={li}> <Link style={link} to="/">Home</Link> </li>
+              <li style={li}> <Link style={link} to="/modamasculina">Moda Masculina</Link> </li>
+              <li style={li}> <Link style={link} to="/modafeminina">Moda Feminina</Link> </li>
+              <li style={li}> <Link style={link} to="/infantil">Moda Infatil</Link> </li>
+              <li style={li}> <Link style={link} to="/sobre">Sobre nós</Link> </li>
             </ul>
         </nav>
     </header>

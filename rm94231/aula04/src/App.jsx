@@ -8,6 +8,7 @@ import ModaMasculina from './components/modaMasculina/ModaMasculina'
 import Produtos from './components/produtos/Produtos'
 import Rodape from './components/rodape/Rodape'
 import Servicos from './components/servicos/Servicos'
+import Sobre from './components/sobre/Sobre'
 
 export default function App() {
     return (
@@ -20,6 +21,7 @@ export default function App() {
                 <Route path='/modamasculina' element={<ModaMasculina/>}/>
                 <Route path='/modafeminina' element={<ModaFeminina/>}/>
                 <Route path='/infantil' element={<Infantil/>}/>
+                <Route path='/sobre' element={<Sobre/>}/>
             </Routes>
             <Rodape/>
         </>

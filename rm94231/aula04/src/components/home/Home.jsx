@@ -9,8 +9,7 @@ export default function Home() {
   }
     return (
     <div style={home}>
-        <h1>Página principal</h1>
-        <p>Exemplo da página principal do projeto</p>
+        <img src='https://setorenergetico.com.br/wp-content/uploads/2020/10/Novo-Comeco-Blog-Banner.png'></img>
     </div>
   )
 }
