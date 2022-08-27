@@ -31,8 +31,7 @@ export default function Consumer() {
                     <li key={usuario.id}>
                         <figure>
                             <img src={usuario.avatar_url} alt={usuario.login} style={{ width: '200px' }} />
-                            <figcaption><a href={usuario.html_url} target="_blank">{usuario.login}</a></figcaption>
-
+                           
                         </figure>
                     </li>
                 )}

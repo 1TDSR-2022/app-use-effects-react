@@ -1,0 +1,26 @@
+.ContainerModaMasculina{
+    display: flex;
+    height: 75vh;
+    background-color: #FAA900;
+    align-items: center;
+    justify-content: space-around;
+}
+.itemMM{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.itemMM img{
+    border-radius: 50%;
+    
+}
+
+.itemMM img:hover{
+    transition: 1s;
+    border: 0.1px solid black;
+}

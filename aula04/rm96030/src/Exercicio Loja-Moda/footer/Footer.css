@@ -1,0 +1,8 @@
+.containerFooter{
+    background-color: black;
+    color: aliceblue;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
