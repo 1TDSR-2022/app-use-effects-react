@@ -1,18 +1,39 @@
 import React from 'react'
+import fem from './img/modafeminina.jpg'
+import masc from './img/modamasculina.jpg'
+import infa from './img/modainfantil.jpg'
 
 export default function Home(){
-    
-    const home={
-        backgroundColor : '#ffb',
-        height : '85vh',
-        textAling: 'center',
-        color: 'orage'
+        
+    const header={
+        backgroundColor: '#00009C'
+    }
+    const body={
+        backgroundColor: '#23238E',
+        textAlign: 'center',
+        color: 'white'
     }
 
+    
+    
+    
     return(
-        <div style={home}>
-            <h1>Página Principal</h1>
-            <p>Exemplo de página principal do projeto</p>
-        </div>
-    )
+            <>
+                <div style={header}>
+                </div>
+                <div style={body}></div>
+                <div>
+                    <img src={fem}/>
+                    <h2>Moda Feminina</h2>
+                </div>
+                <div>
+                    <img src={masc}/>
+                    <h2>Moda Masculina</h2>
+                </div>
+                <div>
+                    <img src={infa}/>
+                    <h2>Moda Infantil</h2>
+                </div>
+            </>
+        )   
 }
